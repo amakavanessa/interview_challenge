@@ -1,9 +1,6 @@
 "use client";
 
 import Image from "next/image";
-import nike from "../public/nike.svg";
-
-import down from "../public/ri-arrow-down-s-line.svg";
 
 const Header = () => {
   return (
@@ -16,11 +13,11 @@ const Header = () => {
       <div className="hand_bugger flex items-center">
         <button className="nike_btn">
           <div className="flex items-center gap-2">
-            <Image src={nike} alt="nike" />
+            <Image src="/nike.svg" width={100} height={100} alt="nike" />
 
             <p className="btw_nike_text">Nike</p>
           </div>
-          <Image src={down} alt="menu" />
+          <Image src="/ri-arrow-down-s-line.svg"  width={100} height={100} alt="menu" />
         </button>
       </div>
     </div>
